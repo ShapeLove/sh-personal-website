@@ -5,6 +5,7 @@
       {{test}}
     </div>
     <home-vue></home-vue>
+    <router-view></router-view>
   </div>
 </template>
 

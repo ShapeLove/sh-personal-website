@@ -26,13 +26,14 @@ module.exports = {
     //     limit: 5120
     // }));
     // },
-    //可以在正式环境下关闭错误报告 console.log...
+    //可以在正式环境下关闭错误报告 console.log.../ 
     configureWebpack: config => { 
         if (process.env.NODE_ENV === 'production') {
             // 为生产环境修改配置...
             return;
         } else {
             // 为开发环境修改配置...
+            // 此处plugin配置的是prerender 预渲染的配置，执行yarn run build 打包成可预渲染的dist/index.html
             return {
               plugins: [
                 new PrerenderSPAPlugin({
@@ -58,10 +59,6 @@ module.exports = {
             };
         }
     },
-    // configureWebpack: () => {
-    //   if (process.env.NODE_ENV !== 'production') return;
-      
-    // },
   
     // css相关配置
     css: {
