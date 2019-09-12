@@ -1,0 +1,19 @@
+/* 主题颜色 */
+$-color-primary: #0084ff !default; // 正常色
+$-color-success: #00c740 !default;
+$-color-warning: #ffb300 !default;
+$-color-error: #e2231a !default;
+$-color-default: #a7a7a7 !default;
+$-color-info: #909399 !default;
+$-color-white: #fff !default;
+$-color-black: #000 !default;
+
+//定义类型数组
+$-class-list: default primary success warning error info;
+
+// Default colors
+$-text-color: #333;
+$-border-color: #eee;
+$-active-color: #f2f3f5;
+$-background-color: #f8f8f8;
+$-background-color-light: #fafafa;

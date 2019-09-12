@@ -5,10 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build:pre": "vue-cli-service build --mode pre-release",  
+    "build:test": "vue-cli-service build --mode test", 
+    "build:prod": "vue-cli-service build --mode production",
+    "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "http-server": "^0.11.1",
+    "prerender-spa-plugin": "^3.4.0",
     "vue": "^2.6.10",
     "vue-class-component": "^7.0.2",
     "vue-property-decorator": "^8.1.0",
@@ -18,6 +24,8 @@
     "@vue/cli-plugin-babel": "^3.11.0",
     "@vue/cli-plugin-typescript": "^3.11.0",
     "@vue/cli-service": "^3.11.0",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.0",
     "typescript": "^3.4.3",
     "vue-template-compiler": "^2.6.10"
   },
