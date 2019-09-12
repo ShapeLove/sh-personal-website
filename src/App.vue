@@ -3,6 +3,7 @@
     {{test}}1111111
     <div class="test">
       {{test}}
+      <router-link to="about">测试路由</router-link>
     </div>
     <home-vue></home-vue>
     <router-view></router-view>

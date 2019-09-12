@@ -43,7 +43,7 @@ module.exports = {
                   staticDir: path.join(__dirname, 'dist'),
           
                   // 对应自己的路由文件，比如a有参数，就需要写成 /a/param1。
-                  routes: ['/', '/Login', '/Home'],
+                  routes: ['/', '/About'],
           
                   // 这个很重要，如果没有配置这段，也不会进行预编译
                   renderer: new Renderer({
