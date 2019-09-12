@@ -17,9 +17,9 @@
    │    ├── components            存放组件
    │    ├── views                 存放页面文件
    │    ├── App.vue               入口页面
-   │    ├── main.ts               路由
-   │    ├── router.ts             入口资源文件
-   │    ├── main.ts               入口资源文件
+   │    ├── main.ts               入口文件
+   │    ├── router.ts             路由
+   │    ├── shims-tsx.d.ts        
    │    └── shims-tsx.d.ts						
    ├── .env.pre-release           环境配置
    ├── .env.production            生产环境配置
