@@ -1,8 +1,8 @@
-# website
+# vue3-config-prerender-template
 
 ## Project setup
 ```
-yarn install
+yarn add 
 ```
 
 ### Compiles and hot-reloads for development
