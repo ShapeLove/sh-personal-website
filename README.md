@@ -1,9 +1,13 @@
 # vue3-config-prerender-template
+- 基于vue-cli3  
+- 使用技术栈：vue+typescript+scss+yarn+vue-router  
+- 本项目只是一个基本的架子，可以在此基础上进行开发，目前实现了vue.config.js的自定义配置，可yarn run build 打包生成可执行的dist文件  
+- 支持预渲染
 ## 目录结构
 ```html
    .
    ├── ReadMe.md                 
-   ├── dist                 run build打包后生成的dist目录（当前已经实现预渲染）
+   ├── dist                       run build打包后生成的dist目录（当前已经实现预渲染）
    │   ├── assets                 css/img静态资源文件
    │   ├── index.html
    ├── public                     存放向外的index.html模板
